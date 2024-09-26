@@ -1,0 +1,93 @@
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.layoutContainer {
+  display: flex;
+  max-width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+
+.navBar {
+  display: flex;
+}
+
+ul > li {
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+}
+
+.navBarLink {
+  color: white;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: 600;
+  margin-left: 14px;
+
+  display: flex;
+  align-items: center;
+}
+
+.navBarLink:hover {
+  cursor: pointer;
+  text-decoration: underline #db1b28 3px;
+}
+
+.navBarList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  list-style: none;
+  padding: 10px 30px 10px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .headerSearch {
+    display: none;
+  }
+  .navBar {
+    background-color: black;
+    width: 100%;
+    align-items: flex-start;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .searchItem {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchBar {
+    width: 96%;
+  }
+
+  .navToggle {
+    display: block;
+    background-color: black;
+    border: none;
+  }
+  .navBarList {
+    width: 100%;
+  }
+  ul > li {
+    border-bottom: 1px solid white;
+    width: 100%;
+    padding-bottom: 18px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .navToggle {
+    display: none;
+  }
+  .searchItem {
+    display: none;
+  }
+}

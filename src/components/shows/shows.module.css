@@ -1,0 +1,33 @@
+.showContainer {
+  margin-left: 15px;
+}
+
+.imageContainer {
+  position: relative;
+  display: inline-block;
+}
+
+.showImage {
+  margin-top: 30px;
+}
+
+.showImage:hover {
+  cursor: pointer;
+  outline: #db1b28 3px solid;
+  transform: scale(1.05);
+}
+
+.title {
+  max-width: 150px;
+}
+
+.watchListButton {
+  position: absolute;
+  top: 34px;
+  right: 4px;
+  z-index: 1;
+}
+.watchListButton:hover {
+  cursor: pointer;
+  outline: #db1b28 2.5px solid;
+}

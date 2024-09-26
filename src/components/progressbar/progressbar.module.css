@@ -1,0 +1,19 @@
+.progressBarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: fit-content;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.progressBar {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  overflow: visible;
+}
+
+.userScoreTitle {
+  margin-left: 20px;
+  line-height: 22px;
+}

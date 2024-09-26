@@ -1,0 +1,48 @@
+.mainContainer {
+  width: 85%;
+}
+
+.navigationButtons {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 300px;
+}
+
+.previousButton {
+  border: 1px solid #db1b28;
+  padding: 4px;
+  margin-right: 10px;
+}
+
+.nextButton {
+  border: 1px solid #db1b28;
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.previousButton:hover {
+  background-color: #db1b28;
+  cursor: pointer;
+}
+
+.nextButton:hover {
+  background-color: #db1b28;
+  cursor: pointer;
+}
+
+.pageNum {
+  border: 1px solid #db1b28;
+  padding: 4px;
+}
+
+.pageNum:hover {
+  background-color: #db1b28;
+  cursor: pointer;
+}
+
+.navigationActive {
+  background-color: #db1b28;
+}

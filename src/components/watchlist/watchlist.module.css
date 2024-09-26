@@ -1,0 +1,30 @@
+.placeholder {
+  width: 138px;
+  height: 225px;
+  background-color: #313639;
+  margin: 30px 0;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 800;
+  padding: 0 6px;
+  margin-left: 15px;
+  position: relative;
+}
+
+.icon {
+  background-color: #fff;
+}
+
+.placeholder:hover {
+  cursor: pointer;
+  outline: #db1b28 3px solid;
+  transform: scale(1.05);
+}
+
+.description {
+  width: fit-content;
+  height: fit-content;
+}

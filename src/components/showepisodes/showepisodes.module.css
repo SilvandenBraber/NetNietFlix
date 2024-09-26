@@ -1,0 +1,24 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  padding-left: 0;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.season {
+  font-weight: 600;
+}
+
+.dropList {
+  margin-left: 10px;
+}
+
+.showEpisodesList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 100px;
+}

@@ -1,0 +1,11 @@
+.mainContainer {
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.carousel {
+  width: 100%;
+}
+.firstTitle {
+  margin-top: 0;
+}

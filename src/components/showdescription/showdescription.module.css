@@ -1,0 +1,13 @@
+.detailsContainerTwo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding-left: 24px;
+}
+
+.detailsTitleContainer {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}

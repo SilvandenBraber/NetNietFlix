@@ -1,0 +1,14 @@
+.mainContainer {
+  align-items: center;
+  background-color: lightgray;
+  border-radius: 15px;
+  display: flex;
+  height: 30px;
+  justify-content: center;
+  opacity: 0.8;
+  width: 30px;
+}
+
+.icon {
+  color: black;
+}
